@@ -1,0 +1,228 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* MY CODE */
+@font-face{
+    font-family: orgtea;
+    src: url("../fonts/orgtea.otf");
+
+}
+
+*{
+    box-sizing: border-box;
+
+
+}
+
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
+    font-style:1rem;
+    line-height:1.5;
+    color: #333;
+    overflow-x:hidden;
+}
+
+.v-header{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    color: #fff;
+}
+.container{
+    max-width:960px
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+
+.fullscreen-video-wrap{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+    min-width:100%;
+    min-height:100%;
+
+}
+
+.header-overlay{
+    height:100vh;
+    width:100vw;
+    position: absolute;
+    top:0;
+    left:0;
+    background:#000;
+    z-index:1;
+    opacity:0.65;
+
+}
+.header-content{
+    z-index:2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content h1{
+    font-size: 50px;
+    margin-bottom:0rem;
+}
+.header-content p{
+    font-size:1.5rem;
+    display: block;
+    padding-bottom:2rem;
+}
+
+.btn{
+    background: #009933;
+    color: #fff;
+    font-size:1.2rem;
+    padding: 1rem 2rem;
+    text-decoration:none;
+
+}
+
+.section{
+    padding: 20px 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.section h1{
+    font-size: 20px;
+
+
+}
+
+.section-b{
+    background: #333;
+    color: #fff;
+
+}
+
+.section img{
+    border-radius:50%;
+    height: 225px;
+    width: 225px;
+    margin-left:30%;
+
+
+}
+
+.sam-text{
+    margin-left:30%;
+
+}
+@media(max-width:960px){
+    .container{
+        padding-right:5rem;
+        padding-left:5rem;
+
+    }
+}
